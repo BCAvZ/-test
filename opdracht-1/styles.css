@@ -3,3 +3,43 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+
+/*opdracht 1*/
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/*opdracht 2*/
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*opdracht 3*/
+.three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    flex-basis:400px;
+    justify-content: space-between;
+}
+/*opdracht 4*/
+form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*opdracht 5*/
+
+
