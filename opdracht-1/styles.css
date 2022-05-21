@@ -41,5 +41,15 @@ form{
     align-items: center;
 }
 /*opdracht 5*/
+.five{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 1200px;
+}
 
+div,article{
+    padding:0;
+    flex: 1 1 400px;
 
+}
