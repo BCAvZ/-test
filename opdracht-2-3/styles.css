@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    box-sizing:border-box;
+    background-color: hsl(62, 52%, 90%);
+    padding:0;
+    margin: 0;
+    font-family:'Roboto', sans-serif;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(245, 100%, 8%);
+    justify-content: start;
+}
+
+.page-head{
+    text-align: start;
+    text-transform: uppercase;
+    background-color: hsl(245, 100%, 8%);
+    color:white;
+    flex-basis: 800px;
+    padding: 40px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background-color: hsl(245, 100%, 8%);
+    justify-content: space-between;
+    text-transform: capitalize;
+    align-items: center;
+    flex: 0 0 400px;
+    padding-right: 40px;
+}
+
+li {
+    background-color: hsl(245, 100%, 8%);
+}
+a{
+    background-color: hsl(245, 100%, 8%);
+    color:white;
+}
+
+.title,.paragraph-head{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 350px;
+    flex: 0 1 280px;
+    background-color: #AB494B;
+    margin: 30px;
+    border-radius: 2%;
+    text-align: center;
+}
+
+p{
+    background-color: #AB494B;
+    padding: 0 20px 20px 20px;
+}
+
+
